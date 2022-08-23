@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 237, 237);
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    margin-left: 180px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+.navbar ul{
+    display: inline-flex;
+    position: absolute;
+    left: 220px;
+    top: 60px;
+}
+.navbar li{
+    margin-left: 50px;
+    list-style: none;
+    color: rgb(139, 136, 136);
+}
+.navbar li select{
+    width: 60px;
+    border: none;
+    background-color: rgb(238, 237, 237);
+}
+.social button{
+    position: absolute;
+    right: 250px;
+    top: 45px;
+    width: 120px;
+    height: 45px;
+    color: rgb(139, 136, 136);
+    text-align: center;
+    border: 2px solid rgb(139, 136, 136);;
+    border-radius: 10px;
+}
+/* .icon-img{
+margin-left: 1140px;
+margin-top: -120px;
+} */
+.fa-facebook{
+    position: absolute;
+right: 120px;
+top: 50px;
+    width: 30px;
+    height:35px;
+    color: blue;
+    border-radius: 100%;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+}
+#whatsapp{
+    position: absolute;
+    right: 160px;
+    top: 3px;
+    width: 35px;
+    height:30px;
+    border-radius: 100%;
+    margin-left: 10px;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.heading{
+    text-align: center;
+    margin-top: 40px;
+}
+.heading p{
+    margin-top: 30px;
+    margin-left: 490px;
+    text-align: center;
+    width: 350px;
+    color: rgb(139, 136, 136);
+}
+.search{
+    margin-top: 30px;
+    margin-left: 400px;
+    width: 600px;
+    height:40px;
+    border-radius: 7px;
+    border-style: none;
+    background-color: #fff;
+     border: 2px solid rgb(139, 136, 136);
+}
+.search select{
+    position: absolute;
+    left:405px;
+    top: 272px;
+    height: 35px;
+    width: 120px;
+    border-style: none;
+    background-color: #fff;
+}
+.search input{
+    position: absolute;
+    left:550px;
+    top: 272px;
+    height: 35px;
+    width: 400px;
+    border-style: none;
+}
+.search img{
+    position: absolute;
+    left:950px;
+    top: 272px;
+    height: 35px;
+    width: 40px;
+}
+.nav2 ul{
+    display: inline-flex;
+    position: absolute;
+    left: 145px;
+    top: 350px;
+}
+.nav2 li{
+    margin-left: 30px;
+    list-style: none;
+    color: black;
+}
+#premium{
+    color:orangered;
+}
+#free{
+    color: rgb(29, 135, 197);
+}
+.items{
+position: absolute;
+right: 150px;
+top: 350px;
+}
+.items img{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+   
+}
+.card {
+    
+    position: relative;
+    top: 100px;
+    left: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .column {
+    float: left;
+    width: 300px;
+    padding-bottom: 30px;
+    padding-left: 70px;
+    
+  }
+    .card img{
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: #f1f1f1;
+    }
+  
+#p1{
+    float: right;
+    color:rgb(139, 136, 136);
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.text{
+    background-color: aliceblue;
+}
+#p2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+#p2 b{
+    font-size: 3rem;
+}
+a{
+    margin-top: 40px;
+    font-size: 1.5rem;
+    text-decoration:2px underline;
+    color: Black;
+}
+.fa-download{
+   margin-left: 20px;
+}
+.footer{
+    position: relative;
+    top: 100px;
+}
+.footer a{
+    position: absolute;
+    bottom: 10px;
+    left: 160px;
+}
+#nextbtn{
+   margin-left: 650px;
+   margin-bottom: 20px;
+   width: 150px;
+   height: 40px;
+   background-color: #f1f1f1;
+   border-style: none;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.gellery img{
+    position: absolute;
+    bottom: 10px;
+    left: 310px;
+    border-radius: 10px;
+}
+.movebtn{
+    position: absolute;
+    bottom: 20px;
+    right: 140px;
+    display: flex;
+}
+.movebtn #p3{
+margin-right: 10px;
+}
+.movebtn button{
+    margin-right: 10px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+}
+.movebtn #p4{
+    padding-left: 20px;
+}
+/* mobile foramt */
+@media (min-width:270px) and (max-width:520px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        margin: 0px;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .logo{
+        margin-top: 0px;
+        width: 100px;
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        left: -30px;
+        margin-top: 10px;
+        border-radius: 50%;
+    }
+    .navbar{
+        width: 10%;
+        position: relative;
+        top: -50px;
+        right: 50px;
+    }
+    .navbar ul{
+        display: inline-flex;
+        position: relative;
+        top: 70px;
+    }
+    .navbar li{
+        margin-right: -20px;
+    }
+    .social{
+        position: relative;
+        right: 130px;
+    }
+    .social button{
+        position: absolute;
+        left: 20px;
+        top: -30px;
+        width: 60px;
+        height: 20px;
+    }
+    .fa-facebook{
+        position: absolute;
+        left: 350px;
+        top: -30px;
+        width: 30px;
+        height: 20px;
+        color: blue;
+
+    }
+    #whatsapp{
+        position:absolute;
+        top: -40px;
+        left:370px;
+        width: 25px;
+        height: 20px;
+    }
+    .heading{
+        width: 400px;
+        padding-top: 40px;
+        position: relative;
+       right: 90px;
+    }
+    .heading h1{
+        position: relative;
+        right: 0px;
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .heading p{
+        position: absolute;
+    width: 250px;
+    }
+    .search{
+        position: relative;
+        left: 10px;
+        width: 280px;
+        border-style: none;
+    }
+    .search select{
+        position: absolute;
+        top:3px;
+        left: 2px;
+        width: 60px;
+    }
+    .search input{
+        position: absolute;
+        top:3px;
+        left: 70px;
+        width: 150px;
+    }
+    .search img{
+        position: absolute;
+        top:10px;
+        left: 290px;
+        width: 30px;
+        height: 20px;
+    }
+    .nav2{
+        position: relative;
+        top: -310px;
+        left: -45px;
+    }
+    .nav2 ul{
+        display: inline-flex;
+        position: absolute;
+        left: 60px;
+        top: 350px;
+    }
+    .nav2 li{
+        margin-right: -25px;
+        list-style: none;
+        color: black;
+    }
+     .items{
+        position: relative;
+        left: 400px;
+        top: 380px;
+        display: flex;
+         }
+         .items img{
+            width: 20px;
+            height: 20px;
+            margin-left: 20px;
+         }
+       
+         .card {
+            width: 350px;
+            padding-bottom: 30px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          }
+          .column {
+            width: 500px;
+            padding-bottom: 30px;
+            padding-right: 90px;
+          }
+           .card img{
+            margin-top: 30px;
+            padding-left : 70px;
+            padding-right: 70px;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            width: 450px;
+           }
+
+        .fa-download{
+           margin-left: 20px;
+        }
+          .footer{
+            position: relative;
+            top: 120px;
+            left: -150px;
+        }
+        .footer a{
+            padding-left: 150px;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+        #nextbtn{
+           top: 60px;
+           width: 100px;
+           height: 30px;
+           align-items: center;
+           
+        }
+        .gellery img{
+            width: 90px;
+            border-radius: 10px;
+        }
+        .movebtn{
+            padding-bottom: -40px;
+            position: absolute;
+            bottom: 20px;
+            right: 90px;
+            display: flex;
+        }
+        .movebtn #p3{
+            position: relative;
+            bottom: -105px;
+            right: -180px;
+            margin-right: 5px;
+        }
+        .movebtn button{
+            margin-right: 10px;
+            position: relative;
+            right: -180px;
+            bottom: -105px;
+            text-align: center;
+            width: 20px;
+            height: 18px;
+        }
+        .movebtn #p4{
+            position: relative;
+            right: -180px;
+            bottom: -105px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+        
+}
+/* //tablet format */
+@media (min-width:500px) and (max-width:768px) {
+    html,body{
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        margin: 0px;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .logo{
+        margin-top: 0px;
+        width: 100px;
+    }
+    .logo img{
+        width: 50px;
+        height: 50px;
+        margin-left: 70px;
+        margin-top: 10px;
+        border-radius: 50%;
+    }
+    .navbar{
+        width: 500px;
+        position: relative;
+        top: -50px;
+    }
+    .navbar ul{
+        display: inline-flex;
+        position: absolute;
+        left: 80px;
+        top: 60px;
+    }
+    .navbar li{
+        margin-left: 50px;
+    }
+    .social{
+        position: relative;
+    }
+    .social button{
+        position: absolute;
+        left: 420px;
+        top: -40px;
+        width: 80px;
+        height: 30px;
+    }
+    .fa-facebook{
+        position: absolute;
+        left: 520px;
+        top: -35px;
+        width: 30px;
+        height: 20px;
+        color: blue;
+
+    }
+    #whatsapp{
+        position:absolute;
+        top: -45px;
+        left:550px;
+        width: 25px;
+        height: 20px;
+    }
+    .heading{
+        width: 400px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .heading h1{
+        margin-left: 145px;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .heading p{
+    margin-top: 20px;
+    width: 400px;
+    position: relative;
+    top: 0;
+    left: -345px;
+    }
+    .search{
+        position: relative;
+        left: -275px;
+        width: 430px;
+        border-style: none;
+    }
+    .search select{
+        position: absolute;
+        top:3px;
+        left: 2px;
+        width: 60px;
+    }
+    .search input{
+        position: absolute;
+        top:3px;
+        left: 70px;
+        width: 300px;
+    }
+    .search img{
+        position: absolute;
+        top:10px;
+        left: 390px;
+        width: 30px;
+        height: 20px;
+    }
+    .nav2{
+        position: relative;
+        top: -310px;
+    }
+    .nav2 ul{
+        display: inline-flex;
+        position: absolute;
+        left: 30px;
+        top: 350px;
+    }
+    .nav2 li{
+        margin-left: 70px;
+        list-style: none;
+        color: black;
+    }
+    .items{
+        position: absolute;
+        right: 90px;
+        top: 390px;
+        }
+        .items img{
+            width: 20px;
+            height: 20px;
+            margin-left: 20px;
+        }
+        .card {
+
+            position: relative;
+            top: 120px;
+            left: 50px;
+            padding-bottom: 30px;
+          }
+          .card img{
+            width: 120px;
+            height: 130px;
+          }
+          .card #p2{
+            font-size: 0.8rem;
+          }
+          .card #p2 b{
+            font-size: 1.8rem;
+          }
+          .card a{
+            font-size: 0.9rem;
+          }
+          .column {
+          width: 150px;
+          padding-left: 30px;
+          }
+          .footer{
+            position: relative;
+            top: 120px;
+        }
+        .footer a{
+            position: absolute;
+            bottom: 10px;
+            left: 90px;
+            font-size: 1.2rem;
+        }
+        #nextbtn{
+            position: relative;
+           left: -420px;
+           top: 100px;
+           width: 100px;
+           height: 30px;
+        }
+        .gellery img{
+            position: absolute;
+            bottom: 10px;
+            left: 490px;
+            width: 90px;
+            border-radius: 10px;
+        }
+        .movebtn{
+            padding-bottom: -40px;
+            position: absolute;
+            bottom: 20px;
+            right: 90px;
+            display: flex;
+        }
+        .movebtn #p3{
+            position: relative;
+            bottom: -105px;
+        margin-right: 5px;
+        }
+        .movebtn button{
+            margin-right: 10px;
+            position: relative;
+            bottom: -105px;
+            text-align: center;
+            width: 20px;
+            height: 18px;
+        }
+        .movebtn #p4{
+            position: relative;
+            bottom: -105px;
+            padding-bottom: 10px;
+            padding-left: 0px;
+        }
+        
+}
