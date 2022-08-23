@@ -238,7 +238,7 @@ margin-right: 10px;
         align-content: center;
         margin: 0px;
         padding: 0;
-        /* overflow-x: hidden; */
+        overflow-x: hidden; 
     }
     .logo{
         margin-top: 0px;
@@ -366,7 +366,7 @@ margin-right: 10px;
        
          .card {
             position: relative;
-            left: -30px;
+            left: -35px;
             top: 150px;
             width: 300px;
             text-align: center;
